@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".InformasiActivity">
+
+    <!-- Action Bar / Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:title="Tentang Aplikasi"
+        app:titleTextColor="@color/black" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_marginHorizontal="40dp"
+    android:layout_marginTop="30dp"
+    >
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="194dp"
+        android:layout_marginBottom="23dp"
+        app:srcCompat="@drawable/logopptsb" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:background="@drawable/box_border"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:text="Munculnya teknologi baru telah membawa perubahan signifikan di berbagai sektor masyarakat. Teknologi tidak hanya membantu manusia melakukan
+berbagai tugas dengan lebih baik dan cepat, tetapi juga memungkinkan terjadinya
+perubahan besar dalam cara pekerjaan tersebut dilakukan. Beberapa jenis penelitian
+telah menyebutkan bagaimana teknologi baru berdampak pada cara hidup.
+Solusi Teknologi Informasi dan Komunikasi (TIK) mempunyai dampak yang luar biasa, menyebabkan
+perubahan radikal dalam cara sektor-sektor ini menangani operasi dan prosedurnya masing-masing. Di bidang pendidikan, beberapa solusi dan aplikasi Teknologi Informasi (TI) telah diterapkan dan diterapkan untuk mengatasi berbagai permasalahan dan proses penting untuk memberikan kualitas layanan yang maksimal kepada berbagai jenis pemangku kepentingan. TI telah menjadikan pengajaran dan pembelajaran lebih mudah diakses." />
+</LinearLayout>
+
+
+</LinearLayout>
